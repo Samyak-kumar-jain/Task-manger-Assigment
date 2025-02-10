@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/v1/task"
+const API_URL = "https://task-manger-jr3n.onrender.com/api/v1/task"
 
 export const CreateTask = async (taskObj) => {
     const url = `${API_URL}/create-task`;
